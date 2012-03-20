@@ -1,15 +1,9 @@
 ---
-title: GitHub API
+title: 虎踞龙蟠BBS API
 ---
 
-# The GitHub API
+# 虎踞龙蟠BBS API
 
-This describes the resources that make up the official GitHub API v3. If
-you have any problems or requests please contact
-[support](mailto:support@github.com?subject=APIv3).
+本页面是虎踞龙蟠BBS的API文档，在使用过程中遇到的问题请到[BBSDev版](http://bbs.seu.edu.cn/r/board/BBSDev)提问，如果发现了Bug请至[Bug_report版](http://bbs.seu.edu.cn/r/board/Bug_report)反馈。
 
-For the new API v3, start browsing the resources on the right >>
-
-View the [API Changelog](/v3/changelog) for information on existing and
-planned changes to the API.
-
+点击右面的目录开始浏览API >>
