@@ -34,3 +34,17 @@ limit
 <%= headers 200 %>
 <%= json(:board_get) %>
 
+## 展开目录版面
+
+当版面为目录版面时，API会直接返回其包含的版面，而不是返回话题
+
+    GET /board/:name
+
+### 范例
+
+    http://bbs.seu.edu.cn/api/board/SBBS_PT.json
+
+### 返回
+
+<%= headers 200 %>
+<%= json(:board_get_expand) %>

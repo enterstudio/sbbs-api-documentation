@@ -166,6 +166,13 @@ module GitHub
         }]
     }
 
+    BOARD_GET_EXPAND = {"boards"=>[{
+        "name"=>"PT_Advice","description"=>"PT\u5efa\u8bae\u4e0e\u7533\u8bc9","count"=>160,"users"=>0,"bm"=>["nnzy"],"leaf"=>true},{
+        "name"=>"PT_Announce","description"=>"PT\u516c\u544a","count"=>54,"users"=>0,"bm"=>["PTAdmin"],"leaf"=>true},{
+        "name"=>"PT_Cafe","description"=>"PT\u5496\u5561\u5385","count"=>5011,"users"=>1,"bm"=>["adu","zhanghaibo","katze"],"leaf"=>true},{
+        "name"=>"PT_Club","description"=>"\u864e\u8e1e\u9f99\u87e0PT\u7ad9\u7ba1\u7406\u7ec4\u8ba8\u8bba\u533a","count"=>2819,"users"=>1,"bm"=>["irun","one","adu"],"leaf"=>true},{
+        "name"=>"PT_Help","description"=>"PT\u65b0\u624b\u533a","count"=>458,"users"=>1,"bm"=>["Saboteur"],"leaf"=>true}],"time"=>1332345231,"cost"=>3,"success"=>true}
+
     RESULT = {
         "result" => 0
     }
