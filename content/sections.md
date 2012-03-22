@@ -16,6 +16,11 @@ title: 分区信息 | 虎踞龙蟠BBS API
 
     http://bbs.seu.edu.cn/api/sections.json
 
+### 参数
+
+up
+: _可选_ **boolean** 自动增加..作为上级目录（默认为false）
+
 ### 返回
 
 <%= headers 200 %>
