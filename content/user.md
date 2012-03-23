@@ -16,3 +16,7 @@ title: 用户 | 虎踞龙蟠BBS API
 
 <%= headers 200 %>
 <%= json(:user) %>
+
+## 获取当前用户的信息
+
+    GET /user
