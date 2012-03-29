@@ -17,7 +17,10 @@ API的元数据对应于应用中的Model，应用应该根据元数据来建立
 ### 字段说明
 
 id
-: **int** 帖子id
+: **int** 帖子ID
+
+gid
+: **int** 帖子所在主题的主ID
 
 board
 : **string** 帖子所在版面
@@ -149,4 +152,9 @@ logins
 life
 : **int** 生命值
 
+gender
+: **char** 性别，`M`为男性，`F`为女性（用户相关设置允许后显示）
+
+astro
+: **string** 星座（用户相关设置允许后显示）
 
