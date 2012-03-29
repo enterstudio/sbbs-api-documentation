@@ -202,15 +202,10 @@ module GitHub
         ]
     }
 
-    TOPIC_GET = {
-        "topics" => [{
-        "id"=>5467,"reid"=>5467,"board"=>"Internetwork","size"=>66,"unread"=>true,"top"=>false,"mark"=>false,"author"=>"guoxinyi","time"=>1331948014,"quoter"=>"guoxinyi","title"=>"\u4e0a\u4e0d\u53bb\u7d2b\u8346 \u600e\u4e48\u529e\uff1f","content"=>"\u6211\u7684\u7535\u8111\u91cd\u88c5\u4e86\u7cfb\u7edf\uff0c\u8fdeipv6\u540e\u7d2b\u8346\u548c\u5317\u90ae\u4eba\u90fd\u4e0a\u53bb\u4e0d\u4e86\uff1f\u6c42\u6280\u672f\u652f\u6301\uff01\uff01","quote"=>"","read"=>56},{
-        "id"=>5468,"reid"=>5467,"board"=>"Internetwork","size"=>64,"unread"=>true,"top"=>false,"mark"=>false,"author"=>"Shiwai","time"=>1331955707,"quoter"=>"guoxinyi","title"=>"Re=> \u4e0a\u4e0d\u53bb\u7d2b\u8346 \u600e\u4e48\u529e\uff1f","content"=>"\u4ec0\u4e48\u7cfb\u7edf\uff0c\u6709\u6ca1\u6709v6\u5730\u5740\u2026\u2026\n\u8fd9\u4e2a\u4e0d\u8bf4\uff0c\u90a3\u4e9b\u6280\u672f\u4f30\u8ba1\u4e5f\u6ca1\u6cd5\u652f\u6301\u989d\u2026\u2026","quote"=>"\u6211\u7684\u7535\u8111\u91cd\u88c5\u4e86\u7cfb\u7edf\uff0c\u8fdeipv6\u540e\u7d2b\u8346\u548c\u5317\u90ae\u4eba\u90fd\u4e0a\u53bb\u4e0d\u4e86\uff1f\u6c42\u6280\u672f\u652f\u6301\uff01\uff01","read"=>44},{
-        "id"=>5469,"reid"=>5467,"board"=>"Internetwork","size"=>38,"unread"=>true,"top"=>false,"mark"=>false,"author"=>"Saboteur","time"=>1331966871,"quoter"=>"guoxinyi","title"=>"Re=> \u4e0a\u4e0d\u53bb\u7d2b\u8346 \u600e\u4e48\u529e\uff1f","content"=>"\u7d2b\u8346\u4f1a\u95f4\u6b47\u6027\u62bd\u98ce\uff0c\u5317\u90ae\u90a3\u4e2a\u4e0d\u77e5\u9053\uff0c\u6ca1\u53f7","quote"=>"\u6211\u7684\u7535\u8111\u91cd\u88c5\u4e86\u7cfb\u7edf\uff0c\u8fdeipv6\u540e\u7d2b\u8346\u548c\u5317\u90ae\u4eba\u90fd\u4e0a\u53bb\u4e0d\u4e86\uff1f\u6c42\u6280\u672f\u652f\u6301\uff01\uff01","read"=>28},{
-        "id"=>5470,"reid"=>5468,"board"=>"Internetwork","size"=>94,"unread"=>true,"top"=>false,"mark"=>false,"author"=>"guoyujia","time"=>1331977162,"quoter"=>"Shiwai","title"=>"Re=> \u4e0a\u4e0d\u53bb\u7d2b\u8346 \u600e\u4e48\u529e\uff1f","content"=>"\u4ffa\u73b0\u5728\u662f\u5f00\u673a\u540e\u51e0\u5206\u949f\u5185\u80fd\u4e0a\u5916\u7f51IPv6\u7684\u7ad9\u70b9,\u4e4b\u540e\u5c31\u4e0d\u884c\u4e86...","quote"=>"\u4ec0\u4e48\u7cfb\u7edf\uff0c\u6709\u6ca1\u6709v6\u5730\u5740\u2026\u2026\n\u8fd9\u4e2a\u4e0d\u8bf4\uff0c\u90a3\u4e9b\u6280\u672f\u4f30\u8ba1\u4e5f\u6ca1\u6cd5\u652f\u6301\u989d\u2026\u2026","read"=>16},{
-        "id"=>5471,"reid"=>5470,"board"=>"Internetwork","size"=>24,"unread"=>true,"top"=>false,"mark"=>false,"author"=>"Shiwai","time"=>1331978738,"quoter"=>"guoyujia","title"=>"Re=> \u4e0a\u4e0d\u53bb\u7d2b\u8346 \u600e\u4e48\u529e\uff1f","content"=>"\u90a3\u662f\u5b66\u9662\u7684\u7f51\u7edc\u539f\u56e0\u5427\u2026\u2026","quote"=>"","read"=>16}
-        ]
-    }
+    TOPIC_GET = {"topics"=>[{
+        "id"=>402645,"gid"=>402645,"reid"=>402645,"board"=>"SEUExpress","size"=>32,"unread"=>true,"top"=>false,"mark"=>false,"author"=>"xiaoyasi","time"=>1332983732,"title"=>"\u5927\u5bb6\u7535\u8111\u90fd\u7528\u4ec0\u4e48\u5b57\u5178\uff1f","content"=>"\u80fd\u591f\u5c4f\u5e55\u67e5\u8bcd\uff0c\u8bcd\u6c47\u91cf\u6bd4\u8f83\u591a\u7684\u90a3\u79cd","read"=>378},{
+        "id"=>402647,"gid"=>402645,"reid"=>402645,"board"=>"SEUExpress","size"=>28,"unread"=>true,"top"=>false,"mark"=>false,"author"=>"haohaizi","time"=>1332986400,"title"=>"Re=> \u5927\u5bb6\u7535\u8111\u90fd\u7528\u4ec0\u4e48\u5b57\u5178\uff1f","content"=>"\u7075\u683c\u65af\u5427\uff0c\u6709\u9053\u4e5f\u53ef\u4ee5\u67e5\u8bcd\u7684\u3002","quote"=>"\u80fd\u591f\u5c4f\u5e55\u67e5\u8bcd\uff0c\u8bcd\u6c47\u91cf\u6bd4\u8f83\u591a\u7684\u90a3\u79cd","quoter"=>"xiaoyasi","read"=>372},{
+        "id"=>402649,"gid"=>402645,"reid"=>402645,"board"=>"SEUExpress","size"=>30,"unread"=>true,"top"=>false,"mark"=>false,"author"=>"vigalove","time"=>1332988914,"title"=>"Re=> \u5927\u5bb6\u7535\u8111\u90fd\u7528\u4ec0\u4e48\u5b57\u5178\uff1f","content"=>"\u7075\u683c\u65af\u3002\u3002\u3002\n\u4e13\u4e1a\u8bcd\u6c47\u6bd4\u8f83\u5145\u8db3\u3002","quote"=>"\u80fd\u591f\u5c4f\u5e55\u67e5\u8bcd\uff0c\u8bcd\u6c47\u91cf\u6bd4\u8f83\u591a\u7684\u90a3\u79cd","quoter"=>"xiaoyasi","read"=>358}],"time"=>1333028029,"cost"=>5,"success"=>true}
 
     TOPIC_POST = {
         "topic" => {"id"=>672354422,"reid"=>672354422,"board"=>"Test","size"=>4,"unread"=>false,"top"=>false,"mark"=>false,"author"=>"fool","time"=>1331995046,"quoter"=>"fool","title"=>"test","content"=>"test","quote"=>"","read"=>1}
@@ -240,9 +235,8 @@ module GitHub
         "name"=>"TableGames","description"=>"\u684c\u9762\u6e38\u620f","leaf"=>true,"unread"=>1},{
         "name"=>"Test","description"=>"\u65b0\u624b\u6d4b\u8bd5","leaf"=>true,"unread"=>0}]}
 
-    USER = {
-        "user"=>{"id"=>"fool","name"=>"\u732b\u55b5","avatar"=>"http=>\/\/bbs.seu.edu.cn\/wForum\/uploadFace\/F\/fool.9321.gif","lastlogin"=>1331992703,"level"=>"\u6280\u672f\u7ad9\u52a1","posts"=>492,"perform"=>102,"experience"=>4119,"medals"=>0,"logins"=>8143,"life"=>99}
-    }
+    USER = {"user"=>{
+        "id"=>"fool","name"=>"\u732b\u55b5","avatar"=>"http=>\/\/bbs.seu.edu.cn\/wForum\/uploadFace\/F\/fool.55.gif","lastlogin"=>1333027143,"level"=>"\u6280\u672f\u7ad9\u52a1","posts"=>513,"perform"=>107,"experience"=>4305,"medals"=>0,"logins"=>8669,"life"=>99,"gender"=>"M","astro"=>"\u5929\u67b0\u5ea7"},"time"=>1333027915,"cost"=>3,"success"=>true}
 
     MAILBOX_GET = {"mails"=>[{
         "id"=>3,"size"=>485,"unread"=>true,"author"=>"one","time"=>1330957343,"title"=>"[\u7cfb\u7edf]BBS\u8fd1\u671f\u529f\u80fd\u6539\u8fdb"},{

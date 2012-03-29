@@ -12,7 +12,7 @@ title: 话题 | 虎踞龙蟠BBS API
 
 ### 范例
 
-    http://bbs.seu.edu.cn/api/topic/Pet/9435.json
+    http://bbs.seu.edu.cn/api/topic/SEUExpress/402645.js?limit=3
 
 ### 参数
 
