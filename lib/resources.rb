@@ -124,47 +124,17 @@ module GitHub
         }]
     }
 
-    BOARD_GET = {
-        "topics" => [{
-            "id"     => 672354420,
-            "reid"   => 672354417,
-            "board"  => "Test",
-            "size"   => 5,
-            "unread" => true,
-            "top"    => false,
-            "mark"   => false,
-            "author" => "Nine",
-            "time"   => 1331912026,
-            "title"  => "Re: test",
-            "read"   => "10"
-        },
-        {
-            "id"     => 672354419,
-            "reid"   => 672354419,
-            "board"  => "Test",
-            "size"   => 7,
-            "unread" => true,
-            "top"    => false,
-            "mark"   => false,
-            "author" => "Italia",
-            "time"   => 1331909700,
-            "title"  => "test",
-            "read"   => "10"
-        },
-        {
-            "id"     => 672354417,
-            "reid"   => 672354416,
-            "board"  => "Test",
-            "size"   => 4,
-            "unread" => true,
-            "top"    => false,
-            "mark"   => false,
-            "author" => "Nine",
-            "time"   => 1331907396,
-            "title"  => "Re: test",
-            "read"   => "10"
-        }]
-    }
+    BOARD_GET ={"topics"=>[{
+        "id"=>402645,"reid"=>402645,"board"=>"SEUExpress","size"=>32,"unread"=>true,"top"=>false,"mark"=>false,"author"=>"xiaoyasi","time"=>1332983732,"title"=>"\u5927\u5bb6\u7535\u8111\u90fd\u7528\u4ec0\u4e48\u5b57\u5178\uff1f","replies"=>13,"last_author"=>"seuforest","last_time"=>1333028559,"read"=>384},{
+        "id"=>402643,"reid"=>402643,"board"=>"SEUExpress","size"=>602,"unread"=>true,"top"=>false,"mark"=>false,"author"=>"angelqiao","time"=>1332983108,"title"=>"3\u670826\u65e5\uff01\u4fdd\u536b\u5904\u53c8\u6293\u83b7\u4e00\u76d7\u7a83\u6469\u6258\u8f66\u7684\u5acc\u7591\u4eba\uff01","replies"=>5,"last_author"=>"kkxmn","last_time"=>1333018514,"read"=>54},{
+        "id"=>402663,"reid"=>402663,"board"=>"SEUExpress","size"=>1611,"unread"=>true,"top"=>false,"mark"=>false,"author"=>"hander","time"=>1333017997,"title"=>"\u6fb3\u5927\u5229\u4e9a\u8fea\u80af\u5927\u5b66\u2014\u62db2012\u5e74\u672c\u79d1\u5e94\u5c4a\u6bd5\u4e1a\u751f\/\u7855\u58eb\u5e94\u5c4a\u6bd5\u4e1a\u751f\u2014\u5c31","replies"=>0,"last_author"=>"hander","last_time"=>1333017997,"read"=>13},{
+        "id"=>402662,"reid"=>402662,"board"=>"SEUExpress","size"=>36,"unread"=>true,"top"=>false,"mark"=>false,"author"=>"tigerheart","time"=>1333015903,"title"=>"\u7559\u56ed\u5bbe\u9986\u5355\u95f4\u4e00\u665a\u4e0a\u591a\u5c11\u94b1\uff1f","replies"=>0,"last_author"=>"tigerheart","last_time"=>1333015903,"read"=>20},{
+        "id"=>402268,"reid"=>402268,"board"=>"SEUExpress","size"=>0,"unread"=>true,"top"=>false,"mark"=>false,"author"=>"liangxianch","time"=>1332395710,"title"=>" \u590d\u65e6BBS\u4e0a\u5728\u8ba8\u8bba\u201c\u4e00\u516c\u65a4\u6c34\u662f\u5426\u80fd\u6d6e\u8d772\u516c\u65a4\u7684\u6728\u5934\u201d\uff0c\u5df2\u7ecf\u8ba8\u8bba","replies"=>14,"last_author"=>"shuifeng","last_time"=>1332999618,"read"=>418},{
+        "id"=>402618,"reid"=>402618,"board"=>"SEUExpress","size"=>18,"unread"=>true,"top"=>false,"mark"=>false,"author"=>"guxiaojiang","time"=>1332916330,"title"=>"\u5b66\u8f66","replies"=>2,"last_author"=>"ruobai","last_time"=>1332994486,"read"=>79},{
+        "id"=>402642,"reid"=>402642,"board"=>"SEUExpress","size"=>1033,"unread"=>true,"top"=>false,"mark"=>false,"author"=>"angelqiao","time"=>1332982884,"title"=>"3\u670818\u65e5\uff01\u4e5d\u9f99\u6e56\u6293\u83b7\u4e00\u5077\u76d7\u81ea\u884c\u8f66\u7684\u5acc\u7591\u4eba\uff01","replies"=>0,"last_author"=>"angelqiao","last_time"=>1332982884,"read"=>43},{
+        "id"=>402640,"reid"=>402640,"board"=>"SEUExpress","size"=>977,"unread"=>true,"top"=>false,"mark"=>false,"author"=>"tingqiang","time"=>1332981413,"title"=>"\u6c5f\u82cf\u7701\u79d1\u6280\u521b\u65b0\u534f\u4f1a\u8bda\u62db\u517c\u804c","replies"=>0,"last_author"=>"tingqiang","last_time"=>1332981413,"read"=>15},{
+        "id"=>402597,"reid"=>402597,"board"=>"SEUExpress","size"=>1400,"unread"=>true,"top"=>false,"mark"=>false,"author"=>"one","time"=>1332864174,"title"=>"\u65af\u56fe\u52a0\u7279\u5927\u5b66\u5408\u5531\u56e2\u7684\u4e00\u573a\u70c2\u97f3\u4e50 (\u8f6c\u8f7d)","replies"=>7,"last_author"=>"DDdog","last_time"=>1332945941,"read"=>385},{
+        "id"=>402608,"reid"=>402608,"board"=>"SEUExpress","size"=>168,"unread"=>true,"top"=>false,"mark"=>false,"author"=>"zhangjieguai","time"=>1332902508,"title"=>"\u5927\u56db\u60f3\u51fa\u56fd\u65c5\u6e38\uff0c\u9700\u8981\u5b66\u9662\u540c\u610f\uff01\uff01\uff01\u600e\u4e48\u529e","replies"=>15,"last_author"=>"raytheon","last_time"=>1332936751,"read"=>270}],"total"=>8123,"time"=>1333029033,"cost"=>4,"success"=>true}
 
     BOARD_GET_EXPAND = {"boards"=>[{
         "name"=>"PT_Advice","description"=>"PT\u5efa\u8bae\u4e0e\u7533\u8bc9","count"=>160,"users"=>0,"bm"=>["nnzy"],"leaf"=>true},{

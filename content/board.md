@@ -10,7 +10,7 @@ title: 版面 | 虎踞龙蟠BBS API
 
 ### 范例
 
-    http://bbs.seu.edu.cn/api/board/Test.json?start=0&limit=3&mode=0
+    http://bbs.seu.edu.cn/api/board/SEUExpress.js?mode=2
 
 ### 参数
 
@@ -28,6 +28,10 @@ start
 
 limit
 : _可选_ **int** 最多获取话题数
+
+### 注意
+
+此接口会额外返回`total`字段，储存版面文章数。
 
 ### 返回
 

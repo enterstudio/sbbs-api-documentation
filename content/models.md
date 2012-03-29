@@ -64,9 +64,17 @@ quote
 quoter
 : **string** 引用内容的作者
 
+last_author
+: **string** 最后回复用户
+
+last_time
+: **time_t** 最后恢复时间
+
 ### 注意
 
 `quote`和`quoter`由分析文本获得，并不可靠。如API中未特定说明，`content`不包含引用的部分。
+
+`last_author`和`last_time`仅在论坛模式下的版面接口可获得。
 
 ## 版面元数据
 
