@@ -34,6 +34,9 @@ notopten
 noquote
 : _可选_ **boolean** 不要自动引用原文（默认为false）
 
+anony
+: _可选_ **boolean** 匿名发文，考虑到本站目前仅有Psychology版为匿名版面，因此不在版面元数据中提供匿名版面属性。应用开发时仅需要在此版发文时提供匿名选项（默认为false）
+
 ### 返回
 
 <%= headers 200 %>
