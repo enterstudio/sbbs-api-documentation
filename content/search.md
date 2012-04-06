@@ -27,6 +27,9 @@ start
 limit
 : _可选_ **int** 最多获取结果数
 
+charset
+: _可选_ **string** 关键词的编码，默认为UTF-8
+
 ### 返回
 
 <%= headers 200 %>
