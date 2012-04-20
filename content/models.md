@@ -46,6 +46,9 @@ top
 mark
 : **boolean** 是否标记过
 
+norep
+: **boolean** 文章设有'不可RE'标记
+
 author
 : **string** 发贴人
 
